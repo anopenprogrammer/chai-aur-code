@@ -7,6 +7,7 @@ function App() {
   const addValues = () => {
     if (counter < 20) {
       setCounter(counter + 1);
+      // setCounter(prevCounter => prevCounter + 1);
     }
     else{
       return;
