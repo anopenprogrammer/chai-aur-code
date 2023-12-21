@@ -48,3 +48,33 @@ function DataFetchingComponent() {
 }
 
 export default DataFetchingComponent;
+
+// import { useState, useEffect } from 'react';
+
+// function App() {
+//   const [user, setUser] = useState(null);
+
+  
+// useEffect(() => {
+//   fetch('https://api.github.com/users/anopenprogrammer')
+//     .then(response => response.json())
+//     .then(user => setUser(user))
+//     .catch(error => console.error('Error fetching data:', error));
+// }, []);
+
+// return (
+//   <div>
+//     {user ? (
+//       <div>
+//         <p>Username: {user.login}</p>
+//         <p>Followers: {user.followers}</p>
+//         <p>Repositories: {user.public_repos}</p>
+//       </div>
+//     ) : (
+//       <p>Loading... Please wait.</p>
+//     )}
+//   </div>
+// );
+// }
+
+// export default App;
